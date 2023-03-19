@@ -1,5 +1,5 @@
 import { makeStyles } from "@mui/styles";
-
+import Img from "./fcc_Woodstock.jpg"; // Import using relative path
 const styles = () => {
   return {
     toolBar: {
@@ -7,11 +7,16 @@ const styles = () => {
       display: "flex",
       justifyContent: "space-between",
       padding: "20px",
-      backgroundColor: "white",
+      backgroundImage: `url(${Img})`,
     },
     logo: {
-      color: "blue",
+      color: "black",
       cursor: "pointer",
+      position: "absolute",
+      left: "33%",
+      top: "80%",
+      transform: "translate(-50%, -50%)",
+      fontWeight: "600",
     },
   };
 };

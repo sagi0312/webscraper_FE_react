@@ -11,8 +11,8 @@ function Header() {
         <AppBar>
           <Toolbar className={classes.toolBar}>
             <Link href="#" underline="none">
-              <Typography variant="h5" className={classes.logo}>
-                Web Scraper
+              <Typography variant="h4" className={classes.logo}>
+                Freecodecamp - Woodstock
               </Typography>
             </Link>
           </Toolbar>
